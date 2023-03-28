@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Imprimir números de 1 a 20</title>
+    <style>
+      
+      #numeros {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      
+      #numeros-linha {
+        display: flex;
+      }
+      
+      #numeros-linha span {
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div id="numeros">
+      <script>
+        
+        for (let i = 1; i <= 20; i++) {
+          document.write('<span>' + i + '</span>');
+        }
+      </script>
+    </div>
+    
+    
+    <div id="numeros-linha">
+      <script>
+        
+        for (let i = 1; i <= 20; i++) {
+          document.write('<span>' + i + '</span>');
+        }
+      </script>
+    </div>
+  </body>
+</html>

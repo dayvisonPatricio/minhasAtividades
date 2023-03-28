@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora de População</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Calculadora de População</h1>
+	<form>
+		<label for="popA">População A:</label>
+		<input type="number" id="popA" name="popA" required>
+
+		<label for="taxaA">Taxa de crescimento A (%):</label>
+		<input type="number" id="taxaA" name="taxaA" required>
+
+		<label for="popB">População B:</label>
+		<input type="number" id="popB" name="popB" required>
+
+		<label for="taxaB">Taxa de crescimento B (%):</label>
+		<input type="number" id="taxaB" name="taxaB" required>
+
+		<button type="button" onclick="calcular()">Calcular</button>
+	</form>
+
+	<div class="resultado" id="resultado"></div>
+</body>
+</html>

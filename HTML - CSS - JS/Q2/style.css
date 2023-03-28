@@ -1,0 +1,7 @@
+input[type="submit"] {
+    margin-top: 10px;
+  }
+  #error-message {
+    color: red;
+    display: none;
+  }
